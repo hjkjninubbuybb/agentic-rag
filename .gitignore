@@ -1,7 +1,29 @@
-.DS_Store
-qdrant_db/
-markdown/
-markdown_docs/
-parent_store/
-docs/
+# --- 忽略系统生成文件 ---
 __pycache__/
+*.py[cod]
+.DS_Store
+
+# --- 忽略虚拟环境 ---
+.venv/
+venv/
+env/
+
+# --- 忽略环境变量与机密 (绝对不能传!) ---
+.env
+.env.local
+
+# --- 忽略 IDE 配置文件 ---
+.idea/
+.vscode/
+
+# --- 忽略本地数据与数据库 (这些太大了，或者是运行时生成的) ---
+qdrant_db/
+parent_store/
+markdown_docs/
+*.db
+*.sqlite3
+
+# --- 忽略 Python 依赖包缓存 ---
+build/
+dist/
+*.egg-info/

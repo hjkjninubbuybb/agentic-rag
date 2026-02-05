@@ -19,7 +19,7 @@
 
 <p align="center">
   <strong>Quickstart here 👉</strong> 
-  <a href="https://colab.research.google.com/gist/GiovanniPasq/ddfc4a09d16b5b97c5c532b5c49f7789/agentic_rag_for_dummies.ipynb">
+  <a href="https://colab.research.google.com/gist/fengge/ddfc4a09d16b5b97c5c532b5c49f7789/agentic_rag_for_dummies.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
   </a>
 </p>
